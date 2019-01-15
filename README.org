@@ -1,0 +1,19 @@
+* blog_os
+
+remote copy of the work found in [[https://os.phil-opp.com/][this blog]].
+
+** Install deps
+
+Install =qemu=, =sudo pacman -S qemu=,
+
+then get the deps:
+
+#+BEGIN_EXAMPLE
+cd blog_os/
+make deps
+#+END_EXAMPLE
+
+
+** Run
+
+=make qemu=
